@@ -1,0 +1,29 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "Express and MongoDB(Mongoose) back-end.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr427/express-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr427/express-mongo/issues"
+  },
+  "homepage": "https://github.com/mr427/express-mongo#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15"
+  }
+}
